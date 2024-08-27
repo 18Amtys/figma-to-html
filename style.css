@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.product-search, .hero .buttons button, .hero .categories button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.hero .buttons button {
+    background-color: #333;
+    color: white;
+}
+
+.hero .categories button {
+    background-color: #fff;
+    color: #333;
+}
+
+.featured-products, .daily-deals, .categories-section, .latest-posts, .contact-us, .sales-statistics {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.featured-products h2, .daily-deals h2, .categories-section h2, .latest-posts h2, .contact-us h2, .sales-statistics h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.featured-products .product-list, .daily-deals .deals, .categories-section .categories-list, .latest-posts .posts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.featured-products .product, .daily-deals .deal, .categories-section .category, .latest-posts .post {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+.featured-products .product img, .latest-posts .post img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.featured-products button, .daily-deals button, .contact-us button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us input, .contact-us textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.sales-statistics .statistics {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sales-statistics .stat {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.sales-statistics .sales-chart {
+    margin-top: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
